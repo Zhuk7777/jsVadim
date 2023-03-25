@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сonstellation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "https://d3js.org/d3.v4.min.js"></script>
+
+</head>
+<body >
+    <div id="header">Реализовать программу, которая по матрице смежности рисует граф</div>
+
+    <div id="left-block">
+        <form id="upper-form" method="post">
+            <label for="dimension">Размерность матрицы</label>
+            <input type="text" id="dimension" name="dimension">
+
+            <input class="button" type="submit" name="submit" value="Далее"><br>
+
+            <strong>
+                <span id="error"></span><br>
+            </strong>
+            
+        </form>
+
+        <form id="bottom-form" method="post">
+            <div id="matrix"></div>
+            <input class="button" type="submit" name="submit" value="Построить граф">
+        </form>
+
+    </div>
+
+    <div id="right-block">
+        <svg id="graph" width="900" height="400">
+        </svg>
+    </div>
+
+    <script src="firstLab.js"></script>
+</body>
+</html>
