@@ -18,7 +18,7 @@
 body {
     background: url(https://awsprocert.com/wp-content/uploads/sites/2/2016/10/video-bg.jpg);
     margin: 0;
-    overflow: hidden;
+    overflow: auto;
 }
 
 #left-block {
@@ -66,5 +66,7 @@ body {
 .cell {
     width: 30px;
     height: 30px;
+    background: rgb(39, 38, 38);
+    color: #f9f3f4;
 }
 
