@@ -66,5 +66,7 @@ body {
 .cell {
     width: 30px;
     height: 30px;
+    background: rgb(39, 38, 38);
+    color: #f9f3f4;
 }
 
